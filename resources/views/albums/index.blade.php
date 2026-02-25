@@ -6,7 +6,6 @@
         <h1>Álbumes</h1>
         @auth
             <a href="{{ route('albums.create') }}" class="btn btn-primary">+ Añadir álbum</a>
-            <a href="{{ route('albums.search') }}" class="btn btn-primary">+ Buscar álbum</a>
         @endauth
     </div>
 
