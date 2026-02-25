@@ -36,3 +36,5 @@ class ReviewController extends Controller
         return view('albums.show', compact('album', 'reviews'));
     }
 }
+
+GIT HUB: https://github.com/twinkywinky67totr/musica-app
