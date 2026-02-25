@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-
+use Illuminate\Contracts\View\View;
 class Album extends Model
 {
     use HasFactory;
@@ -27,3 +27,4 @@ class Album extends Model
         return $this->belongsTo(User::class);
     }
 }
+
